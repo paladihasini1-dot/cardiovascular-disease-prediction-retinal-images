@@ -2,43 +2,34 @@ Predicting Cardiovascular Disease Using Retinal Images
 
 Project Overview
 
-This project focuses on predicting cardiovascular disease using retinal fundus images and deep learning techniques.
+Predicting Cardiovascular Disease Using Retinal Images is an AI-based academic project that uses retinal fundus images to identify patterns associated with cardiovascular disease.
 
-Retinal images contain visible information about blood vessels and other retinal characteristics that can be useful for identifying patterns associated with cardiovascular health. The system analyzes a retinal image and predicts the corresponding cardiovascular disease risk/class.
+The project applies image processing and deep learning techniques to analyze retinal images and generate a prediction through a computer-based system.
 
 Objectives
 
 - Analyze retinal fundus images using Artificial Intelligence.
+- Preprocess retinal images for model analysis.
 - Apply deep learning techniques for image classification.
-- Predict cardiovascular disease from retinal images.
-- Provide an automated and easy-to-use prediction system.
-- Support early identification of potential cardiovascular risk indicators.
+- Predict cardiovascular disease based on retinal image features.
+- Develop an automated prediction system.
+- Demonstrate the application of AI in medical image analysis.
 
 Technologies Used
 
 - Python
-- Deep Learning
 - TensorFlow / Keras
+- Deep Learning
+- Machine Learning
 - OpenCV
 - NumPy
+- Pandas
 - Matplotlib
-- Machine Learning
 - Retinal Image Processing
 
 Methodology
 
-The system follows these major steps:
-
-1. Collect retinal fundus images.
-2. Preprocess and resize the images.
-3. Prepare the dataset for model training.
-4. Train a deep learning image classification model.
-5. Evaluate the trained model.
-6. Provide a retinal image as input.
-7. Predict the cardiovascular disease class/risk.
-8. Display the prediction result.
-
-System Workflow
+The system follows these steps:
 
 Retinal Fundus Image
         ↓
@@ -48,47 +39,81 @@ Feature Extraction
         ↓
 Deep Learning Model
         ↓
-Disease Prediction
+Model Prediction
         ↓
-Prediction Result
+Cardiovascular Disease Result
 
-Project Features
+1. Image Input
 
-- Retinal image input
-- Image preprocessing
-- Deep learning-based classification
-- Cardiovascular disease prediction
-- Automated prediction results
-- Easy-to-use interface
+A retinal fundus image is provided as the input to the system.
+
+2. Image Preprocessing
+
+The input image is processed and prepared in the required format for the trained model.
+
+3. Feature Analysis
+
+Important visual patterns and features from the retinal image are analyzed by the deep learning model.
+
+4. Prediction
+
+The trained model processes the image and generates the corresponding prediction.
+
+5. Result
+
+The prediction is displayed to the user through the project interface.
+
+Project Files
+
+The repository contains the source files required for the project implementation, along with the project screenshots and documentation.
+
+The uploaded source files include the code used for:
+
+- Retinal image processing
+- Data preprocessing
+- Deep learning model implementation
+- Model training and/or prediction
+- Cardiovascular disease classification
+- Project application/interface
+
+Please refer to the source files in this repository for the complete implementation.
 
 Screenshots
 
-Screenshot 1
+Project Interface
 
-"Project Screenshot 1" (Screenshot%202026-09-20%20224615.png)
+"Project Interface" (Screenshot%202026-09-20%20224615.png)
 
-Screenshot 2
+Image / Prediction
 
-"Project Screenshot 2" (Screenshot%202026-09-20%20224657.png)
+"Prediction Result" (Screenshot%202026-09-20%20224657.png)
 
-Screenshot 3
+Project Output
 
-"Project Screenshot 3" (Screenshot%202026-09-20%20224710.png)
+"Project Output" (Screenshot%202026-09-20%20224710.png)
 
 Applications
 
-This project demonstrates how Artificial Intelligence and retinal image analysis can be used as a research-based approach for cardiovascular disease prediction.
+This project demonstrates the use of Artificial Intelligence and medical image analysis for cardiovascular disease prediction research.
 
-It can be useful as an academic prototype for exploring AI-assisted medical image analysis.
+It can serve as an academic prototype for studying how retinal fundus images can be analyzed using deep learning techniques.
+
+Advantages
+
+- Automated image analysis
+- Reduces the need for manual image inspection in the research workflow
+- Demonstrates the use of deep learning in healthcare
+- Provides a quick computational prediction
+- Can be extended to larger datasets and additional conditions
 
 Future Enhancements
 
-- Improve model accuracy using larger datasets.
-- Support multiple cardiovascular conditions.
-- Add Explainable AI techniques to visualize model decisions.
+- Train the model using larger and more diverse retinal image datasets.
+- Improve prediction performance through advanced deep learning architectures.
+- Add Explainable AI to show the regions influencing the prediction.
 - Develop a mobile application.
-- Add multilingual support.
-- Validate the model using larger and clinically diverse datasets.
+- Add support for multiple cardiovascular conditions.
+- Perform extensive clinical validation with appropriate medical datasets.
 
 Project Status
 
@@ -96,4 +121,4 @@ Academic / Student Project
 
 Disclaimer
 
-This project is developed for academic and research purposes. The predictions generated by the system should not be considered a medical diagnosis or a replacement for professional medical advice.
+This project is developed for academic and research purposes. The predictions generated by this system should not be considered a medical diagnosis or a replacement for professional medical advice. Clinical decisions should always be made by qualified healthcare professionals.
